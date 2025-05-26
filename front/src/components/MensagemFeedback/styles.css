@@ -1,0 +1,26 @@
+.mensagem {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1e1e1e;
+  color: white;
+  border: 2px solid #ff1744;
+  padding: 12px 20px;
+  border-radius: 12px;
+  font-weight: bold;
+  z-index: 999;
+  box-shadow: 0 0 12px rgba(255, 23, 68, 0.3);
+  cursor: pointer;
+}
+
+.mensagem.sucesso {
+  background-color: #1e1e1e;
+  color: #00e676;
+  border-color: #00e676;
+}
+
+.mensagem.erro {
+  background-color: #1e1e1e;
+  color: #ff1744;
+}

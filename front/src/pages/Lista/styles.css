@@ -1,0 +1,46 @@
+/* src/pages/Lista/styles.css */
+
+.pagina-lista-usuarios {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #121212;
+    color: #fff;
+    box-sizing: border-box;
+  }
+  
+  .pagina-lista-usuarios .container {
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 40px 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(255, 23, 68, 0.4);
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  .pagina-lista-usuarios .container h2 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #ff1744;
+  }
+  
+  .pagina-lista-usuarios .link-voltar {
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    color: #ff1744;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .pagina-lista-usuarios .link-voltar:hover {
+    color: #fff;
+  }
+  

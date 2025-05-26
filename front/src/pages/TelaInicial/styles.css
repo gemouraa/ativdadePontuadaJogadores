@@ -1,0 +1,45 @@
+.tela-inicial {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .conteudo {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 16px;
+    text-align: center;
+    max-width: 500px;
+    width: 90%;
+    box-shadow: 0 0 15px rgba(255, 23, 68, 0.2);
+  }
+  
+  .logo {
+    width: 120px;
+    margin-bottom: 20px;
+  }
+  
+  .botao-entrar {
+    margin-top: 20px;
+    background-color: #ff1744;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .botao-entrar:hover {
+    background-color: #ff4569;
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(255, 23, 68, 0.4);
+  }
+  

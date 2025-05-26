@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 40px auto;
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 0 15px rgba(255, 23, 68, 0.2);
+    text-align: center;
+  }
+  
+  .container img {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+  
+  .container h2 {
+    color: #ff1744;
+    margin-bottom: 25px;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #2b2b2b;
+    color: #fff;
+    font-size: 16px;
+    transition: border 0.3s ease;
+  }
+  
+  form input:focus {
+    border-color: #ff1744;
+    outline: none;
+  }
+  
+  button[type="submit"],
+  .link-usuarios {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #ff1744;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+  }
+  
+  button[type="submit"]:hover,
+  .link-usuarios:hover {
+    background-color: #ff4569;
+    transform: scale(1.03);
+    box-shadow: 0 0 10px rgba(255, 23, 68, 0.4);
+  }
+  
+  .link-usuarios {
+    background-color: transparent;
+    color: #ff1744;
+    border: 2px solid #ff1744;
+    margin-top: 10px;
+  }
+  
+  .link-usuarios:hover {
+    background-color: #ff1744;
+    color: #fff;
+  }
+  

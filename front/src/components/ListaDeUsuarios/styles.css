@@ -1,0 +1,35 @@
+/* src/components/ListaDeUsuarios/styles.css */
+
+.lista-usuarios {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 900px;
+}
+
+.lista-usuarios li {
+  text-align: left;
+  margin-bottom: 20px;
+  padding: 25px 30px;
+  background-color: #1e1e1e;
+  border-radius: 14px;
+  font-size: 18px;
+  color: #fff;
+  box-shadow: 0 0 10px rgba(255, 23, 68, 0.3);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.lista-usuarios li:hover {
+  background-color: #2b2b2b;
+  border-color: #ff1744;
+  box-shadow: 0 0 18px rgba(255, 23, 68, 0.7);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.lista-usuarios li strong {
+  font-weight: bold;
+  color: #ff1744;
+}
